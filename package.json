@@ -1,0 +1,50 @@
+{
+  "name": "aidevkit",
+  "version": "1.0.0",
+  "description": "Set up your AI coding assistant right: survey → personalized toolkit → install. `doctor` shows how many tokens (and $) your setup wastes per request.",
+  "type": "module",
+  "bin": {
+    "ai-kit": "cli.mjs",
+    "aidevkit": "cli.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "cli.mjs",
+    "README.md",
+    "README.kk.md",
+    "README.es.md",
+    "README.tr.md",
+    "README.zh.md",
+    "README.ru.md",
+    "LICENSE",
+    "catalog.min.json.gz"
+  ],
+  "keywords": [
+    "ai",
+    "claude",
+    "claude-code",
+    "cursor",
+    "agent-skills",
+    "plugins",
+    "tokens",
+    "context",
+    "setup",
+    "cli",
+    "doctor"
+  ],
+  "author": "Hasenhan Kazimov (https://github.com/hasabasa)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasabasa/ai-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hasabasa/ai-kit/issues"
+  },
+  "homepage": "https://github.com/hasabasa/ai-kit#readme",
+  "scripts": {
+    "test": "node cli.mjs --test"
+  },
+  "license": "MIT"
+}

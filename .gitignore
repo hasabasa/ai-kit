@@ -1,0 +1,9 @@
+node_modules/
+*.log
+.DS_Store
+.env
+# артефакты запусков ai-kit в этой же папке
+ai-kit-report.html
+ai-kit-plan.md
+catalog.json.partial
+catalog.json
